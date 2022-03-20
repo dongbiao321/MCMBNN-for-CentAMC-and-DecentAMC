@@ -1,6 +1,6 @@
 # 1.Simulation Details
 
-This network is implemented in Keras, and the environment setting is:
+This work is implemented in Keras, and the environment setting is:
 
 ```bash
 tensorflow-gpu=1.10.0
