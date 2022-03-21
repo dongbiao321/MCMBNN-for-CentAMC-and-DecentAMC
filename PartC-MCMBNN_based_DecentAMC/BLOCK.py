@@ -152,7 +152,7 @@ if __name__ == '__main__':
     model = BLOCK(classes=11)
 
     # for the RadioML2016.10b dataset
-    # model = MCLDNN(classes=10)
+    # model = BLOCK(classes=10)
 
     model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer='adam')
     model.summary()
